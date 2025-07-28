@@ -1,0 +1,16 @@
+{
+  "Name": "RADIWEB_PACS",
+  "DicomAet": "RADIWEB",
+  "DicomPort": 11112,
+  "HttpPort": 8042,
+  "RemoteAccessAllowed": true,
+  "AuthenticationEnabled": true,
+  "RegisteredUsers": {
+    "radiweb": "sua_senha_forte"
+  },
+  "DicomWeb": {
+    "Enable": true,
+    "Root": "/dicom-web/",
+    "EnableMetadata": true
+  }
+}
