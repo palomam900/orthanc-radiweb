@@ -3,6 +3,7 @@
   "DicomAet": "RADIWEB",
   "DicomPort": 11112,
   "HttpPort": 8042,
+  "HttpServerEnabled": true,
   "RemoteAccessAllowed": true,
   "AuthenticationEnabled": true,
   "RegisteredUsers": {
