@@ -1,5 +1,4 @@
 FROM jodogne/orthanc
 
-EXPOSE 8042 4242
+COPY orthanc.json /etc/orthanc/
 
-CMD ["/entrypoint.sh", "/etc/orthanc/config/orthanc.json"]
